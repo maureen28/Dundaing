@@ -7,5 +7,10 @@ h2,h3{
     width: 400px;
 }
 .about p{
-font-size: 100%;
+font-size: 1.5em;
+font-family: Arial, Helvetica, sans-serif
+}
+.footer p{
+    font-family: 'Arapey', serif;
+    
 }
