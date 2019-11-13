@@ -4,13 +4,19 @@ video{
 }
 body{
     background-color: black;
+    
 }
 .img-thumbnail{
     background: none;
     border-color: black;
     border-radius: 0;
+    
 }
-.jumbotron{
+.centers{
+    text-align: center;
+    align-items: center;
+}
+/* .jumbotron{
     background-color: black;
     text-align: center;
-}
+} */
