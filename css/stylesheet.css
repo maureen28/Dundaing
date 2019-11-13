@@ -1,11 +1,13 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 h2,h3{
     font-family: 'Arapey', serif;
     text-align: center;
     font-size: 3em;
+    color: white;
 }
 .image{
     width: 400px;
@@ -13,7 +15,15 @@ h2,h3{
 .about p{
 font-size: 2em;
 font-family: Arial, Helvetica, sans-serif;
+color: white;
 }
 .images{
     width: 320px;
+}
+span{
+    color: white;
+    font-size: 1.15em;
+}
+h4{
+    color: white;
 }
