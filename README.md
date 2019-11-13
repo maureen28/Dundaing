@@ -10,6 +10,8 @@
 <ol>
 <li>HTML</li>
 <li>CSS</li>
+<li>JavaScript</li>
+<li>css-font-awesome</li>
 <li>jQuery</li>
 <li>Bootstrap</li>
 </ol>
@@ -27,4 +29,6 @@
 ### Known Bugs
 
 ### Contact Information
-
+> To get in touch you can:
+<li>E-mail us @info.dundaing.com</li>
+<li>Tag us on Instagram at <ins>@Dundaing<ins> </li>
