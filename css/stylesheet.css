@@ -8,7 +8,6 @@ h2,h3{
     font-family: 'Arapey', serif;
     text-align: center;
     font-size: 3em;
-    color: white;
 }
 .image{
     width: 400px;
@@ -16,17 +15,16 @@ h2,h3{
 .about p{
 font-size: 2em;
 font-family: Arial, Helvetica, sans-serif;
-color: white;
 }
 .images{
     width: 320px;
 }
-span{
-    color: white;
+span{  
     font-size: 1.15em;
 }
-h4{
-    color: white;
+
+h5{
+    text-align: center;
 }
 .crs{
     padding-top: 50px;
