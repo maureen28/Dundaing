@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 h2,h3{
     font-family: 'Arapey', serif;
     text-align: center;
@@ -7,6 +11,9 @@ h2,h3{
     width: 400px;
 }
 .about p{
-font-size: 1.5em;
-font-family: Arial, Helvetica, sans-serif
+font-size: 2em;
+font-family: Arial, Helvetica, sans-serif;
+}
+.images{
+    width: 320px;
 }
