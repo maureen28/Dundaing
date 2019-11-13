@@ -1,14 +1,16 @@
-.crs{
-    padding-top: 50px;
-    margin-top: 70px;
+video{
+    width: 100%
+
 }
-/*.wrapper{
+body{
     background-color: black;
-}*/
-.pp-background {
-	background: rgba(0,0,0,0.7);/* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, rgba(0,0,0,0.7), #605C3C, #3C3B3F); 
-    background: linear-gradient(to right, rgba(0,0,0,0.7), #605C3C, #3C3B3F);
-	padding: 10px;
-    z-index: 1;
+}
+.img-thumbnail{
+    background: none;
+    border-color: black;
+    border-radius: 0;
+}
+.jumbotron{
+    background-color: black;
+    text-align: center;
 }
