@@ -6,5 +6,7 @@ body{
     background-color: black;
 }
 .img-thumbnail{
+    background: none;
     border-color: black;
+    border-radius: 0;
 }
