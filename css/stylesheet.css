@@ -10,3 +10,7 @@ body{
     border-color: black;
     border-radius: 0;
 }
+.jumbotron{
+    background-color: black;
+    text-align: center;
+}
