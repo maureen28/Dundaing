@@ -5,40 +5,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
     <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/stylesheet.css">
     <link href="https://fonts.googleapis.com/css?family=Arapey&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Dundaing</title>
 </head>
 
 <body>
+    <div class="centers"><img src="images/jumbo1.png" alt="LOGO"></div>
     <div class="container-fluid">
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-            <span class="navbar-text">Dundaing</span>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="">Home</a>
-                </li>
+        <div class="ht-65 bd bg-gray-100 pd-x-20 d-flex align-items-center justify-content-center mg-t-20">
+    <ul class="nav nav-gray-600 active-info tx-uppercase tx-12 tx-medium tx-spacing-2 flex-column flex-sm-row"
+        role="tablist">
+        <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="index.html" role="tab">Home</a>
+        </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="aboutus">About us</a>
-                </li>
+    </ul>
+    <ul class="nav nav-gray-600 active-info tx-uppercase tx-12 tx-medium tx-spacing-2 flex-column flex-sm-row"
+        role="tablist">
+        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="checkout.html" role="tab">Bookings</a></li>
+        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#footer" role="tab">Contact
+                Us</a></li>
+                <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#about" role="tab">About
+                    Us</a></li>
+    </ul>
+</div><br>
+</div>
+    <div class="elementor-widget-container">
+            <div class="elementor-wrapper elementor-fit-aspect-ratio elementor-open-inline embed-responsive embed-responsive-16by9">
+            <video class="elementor-video" src="images/dunda.mp4" autoplay="" loop="" muted="muted" controlslist="nodownload"></video>
+        </div>
+        </div><br>
+            </div>
+        <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-3">
+                        <img src="images/dunda1.png" class="img-thumbnail" alt="Dunda">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="images/dunda2.png" class="img-thumbnail" alt="Dundaing">
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+            </div>
+</div>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="contactus">Contact Us</a>
-                </li>
-                
-                <li class="nav-item">
-                    <a class="nav-link" href="checkout.html">Book</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
     <div><br><br><br><br>
         <div class="container">
-            <div class="about">
+            <div class="about" id="about">
                 <h2><b>ABOUT US</b></h2>
                 <p>Dundaing is the <em>Number 1</em> running event and party planner app. We offer state of the art
                     sound and lightning systems,party venues and discounted prices on food,drinks and security.</p>
@@ -63,7 +80,46 @@
                                 data-content="info@dundaing.com" data-type="mail">info@dundaing.com</a></span><br>
                         <span>Instagram:&nbsp;@<a href="https://instagram.com/dundaing" target="_blank"
                                 data-content="http://instagram.com/dundaing"
-                                data-type="external">Dundaing</a></span><br>
+                                data-type="external">Dundaing</a></span><br><br><br> 
+                                <div class="row">
+                                    <div class="col-md-9 mb-md-0 mb-5">
+                                        <form id="contact-form" name="contact-form">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="md-form mb-0">
+                                                        <input type="text" id="name" name="name" class="form-control">
+                                                        <label for="name" class="">Your name</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="md-form mb-0">
+                                                        <input type="text" id="email" name="email" class="form-control" required>
+                                                        <label for="email" class="">Your email</label>
+                                                    </div>
+                                                </div>
+                
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="md-form">
+                                                        <textarea type="text" id="message" name="message" rows="2"
+                                                            class="form-control md-textarea" required></textarea>
+                                                        <label for="message">Your message</label>
+                                                    </div>
+                                                    <button type="submit" id="submit-feedback" class="btn btn-info">Submit
+                                                        Message</button><br><br>
+                                                </div>
+                                                <div class="alert-message">Your message has been sent</div>
+                                            </div>
+                                            <div class="text-center text-md-left">
+                
+                                        </form>
+                                        </div>
+                                </div>
+                
+                                    </div>
+            
+
                     </div>
                     <div class="col-md-4">
                         <img class="images" src="images/nviri.jpg" alt="nviiri">
@@ -78,7 +134,11 @@
             <h5><strong>Copyright (c) 2019 Dundaing</strong></h5>
         </div>
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    
+        <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-database.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-analytics.js"></script>
+        <script src="js/script.js"></script>
 </body>
+<div class="se-pre-con"></div>
 
 </html>
