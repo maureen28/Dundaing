@@ -47,3 +47,11 @@ body{
 html {
     scroll-behavior: smooth;
   }
+.alert-message{
+    text-align: center;
+    padding: 5px;
+    background: whitesmoke; 
+    color:black;
+    margin-bottom: 5px;
+    display: none;
+}

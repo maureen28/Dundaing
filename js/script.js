@@ -26,7 +26,13 @@ function submitForm(event){
     var message = getInputs("message");
 
     saveMessage(name,email,message);
+document.querySelector(".alert-message").style.display = "block";
+//alert message
+setTimeout(function(){
+    document.querySelector(".alert-message").style.display = "none";
+},3000);
 }
+
 
 //reference message collection
 var messagesRef  = firebase.database().ref("messages")
