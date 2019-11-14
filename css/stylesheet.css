@@ -4,7 +4,7 @@ body{
     background-color: black;
     color: white;
 }
-h2,h3{
+h3,h4{
     font-family: 'Arapey', serif;
     text-align: center;
     font-size: 3em;
@@ -23,7 +23,7 @@ span{
     font-size: 1.15em;
 }
 
-h5{
+p{
     text-align: center;
 }
 .crs{
