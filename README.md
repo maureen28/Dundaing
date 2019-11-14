@@ -1,6 +1,7 @@
 # DUNDAING
 
 ## Description
+This web application lets users' choose a customized package from them being able to choose the drinks,food,the system and dj as well as a bouncer.
 
 ## Screenshot
 <img src="./" alt="" width="400"/>
