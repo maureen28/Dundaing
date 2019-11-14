@@ -31,6 +31,7 @@ document.querySelector(".alert-message").style.display = "block";
 setTimeout(function(){
     document.querySelector(".alert-message").style.display = "none";
 },3000);
+document.getElementById("contact-form").requestFullscreen();
 }
 
 
