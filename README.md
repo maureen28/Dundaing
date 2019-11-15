@@ -19,7 +19,7 @@ A web application that allows users' to recreate the night club atmosphere at th
 ### Set-up Instructions.
 <ul>
 <li>Clone the repository to a loaction in your file at https://github.com/mukhtarabdirahman/Dundaing.git </li>
-<li>Open the folder you have cloned</li>
+<li>Open the folder you have cloned.</li>
 <li>Open <ins>index.html</ins> on your browser.</li>
 </ul>
 
