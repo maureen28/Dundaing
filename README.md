@@ -4,7 +4,7 @@
 A web application that allows users' to recreate the night club atmosphere at the comfort of your home and an option to also choose if they need a venue to go party.
 
 ## Screenshot
-<img src="./" alt="" width="400"/>
+<img src="./images/screenshot.jpg" alt="Landing page image" title="image view on samsung galaxy" width="400"/>
 
 
 ### Technologies Used
