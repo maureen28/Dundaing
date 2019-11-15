@@ -31,7 +31,7 @@ A web application that allows users' to recreate the night club atmosphere at th
 <li>INPUT: User selects the type of drinks they want</li>
 <li>INPUT: User selects whether they want food</li>
 <li>INPUT: User selects wether they want a system</li>
-<li>OUTPUT: Displays User's order and proceed to checkout where they pay</li>
+<li>OUTPUT: Displays User's order and proceed to checkout where they pay and get their full order summary</li>
 </ul>
 <li>Displays form for contact us</li>
 <ul>

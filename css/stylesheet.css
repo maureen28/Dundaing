@@ -30,13 +30,28 @@ p{
     padding-top: 50px;
     margin-top: 70px;
 }
-/*.wrapper{
+body{
     background-color: black;
-}*/
-.pp-background {
-	background: rgba(0,0,0,0.7);/* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, rgba(0,0,0,0.7), #605C3C, #3C3B3F); 
-    background: linear-gradient(to right, rgba(0,0,0,0.7), #605C3C, #3C3B3F);
-	padding: 10px;
-    z-index: 1;
+    
+}
+.img-thumbnail{
+    background: none;
+    border-color: black;
+    border-radius: 0;
+    
+}
+.centers{
+    text-align: center;
+    align-items: center;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.alert-message{
+    text-align: center;
+    padding: 5px;
+    background: whitesmoke; 
+    color:black;
+    margin-bottom: 5px;
+    display: none;
 }
